@@ -33,6 +33,10 @@ img {
   margin: -1px; padding: 0; border: 0;
 }
 
+::placeholder {
+  color: #9EA3B2;
+}
+
 /* .anchor {
   display: block;
   position: relative;
