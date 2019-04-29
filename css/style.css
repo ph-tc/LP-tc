@@ -120,12 +120,14 @@ h1 {
 }
 
 .section-1 .contact-btn {
+  display: inline-block;
   padding: 0 120px 0 70px;
   font-size: 36px;
   font-weight: normal;
   line-height: 85px;
   text-transform: uppercase;
   color: #982329;
+  text-decoration: none;
   border: none;
   border-radius: 100px;
   background-color: #fff;
