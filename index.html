@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="section-1">
+  <header class="section-1" id="top">
     <div class="inner">
       <div class="navigation">
         <a class="main-logo" href="#">
@@ -25,28 +25,26 @@
           </button>              
           <ul>
             <li>
-              <a href="">Главная</a>
+              <a href="#top">Главная</a>
             </li>
             <li>
-              <a href="">Услуги</a>
+              <a href="#services">Услуги</a>
             </li>
             <li>
-              <a href="">Источник трафика</a>
+              <a href="#sources">Источник трафика</a>
             </li>
             <li>
-              <a href="">Наши преимущества</a>
+              <a href="#contacts">Контакты</a>
             </li>
           </ul>
         </nav>
       </div>
       <h1 class="heading">Эффективно продвигаем мобильные приложения  и веб ресурсы по моделям CPI, CPA и RevShare</h1>
       <h2 class="subheading">интеллектуальный агрегатор мобильного трафика</h2>
-      <div class="btn-wrapper">  
-        <button class="contact-btn">Связаться</button>
-      </div>
+      <button class="contact-btn">Связаться</button>
     </div>
   </header>
-  <section class="section-2">
+  <section class="section-2" id="services">
     <div class="inner">
       <h1>Специализируемся на эффективных каналах интернет-маркетинга</h1>
       <ul>
@@ -73,13 +71,14 @@
       </ul>
     </div>
   </section>
-  <section class="section-3">
+  <section class="section-3" id="sources">
     <div class="inner">
       <h1>Источники трафика</h1>
       <p>Увеличение аудитории веб-ресурсов и мобильных приложений, путём привлечения новых пользователей</p>
+      <div class="img"></div>
     </div>
   </section>
-  <section class="section-4">
+  <section class="section-4" id="response">
     <div class="inner">
       <h1>Связаться с нами</h1>
       <p>Свяжитесь с нашей командой по работе с клиентами, чтобы получить ответы.<br>Пожалуйста, заполните форму ниже, и мы свяжемся с вами в кратчайшие сроки</p>
@@ -99,7 +98,7 @@
       </form>
     </div>
   </section>
-  <footer class="section-5">
+  <footer class="section-5" id="contacts">
     <div class="inner">
       <ul class="list">
         <li class="item">
@@ -121,6 +120,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/smooth-scroll.polyfills.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

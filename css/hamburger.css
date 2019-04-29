@@ -1,6 +1,7 @@
 /* Hamburger menu */
 
 .hamburger {
+  position: relative;
   /* padding: 15px 15px; */
   display: none;
   cursor: pointer;
@@ -13,7 +14,8 @@
   background-color: transparent;
   border: 0;
   margin: 0;
-  overflow: visible; 
+  overflow: visible;
+  z-index: 300;
 }
 
 @media screen and (max-width: 1060px) {
