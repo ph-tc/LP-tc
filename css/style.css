@@ -28,7 +28,7 @@
 /* SECTION 1 */
 
 .section-1 {
-  height: 100vh;
+  min-height: 100vh;
   padding: 60px 0 150px;
   background-color: #EA3B38;
   background-image: url('../img/bg1.svg'), linear-gradient(151deg, #B13030 -6.53%, #EA3B38 12.9%, #992329 54.64%, #7C1C24 101.15%);
@@ -53,11 +53,11 @@ footer .inner {
 }
 
 .section-1 .main-logo,
-.section-1 .main-logo img {
+.section-1 .main-logo svg {
   width: 317px;
 }
 
-.section-1 .main-logo img {
+.section-1 .main-logo svg {
   margin-bottom: 14px;
 }
 
@@ -620,6 +620,7 @@ footer .bottom p {
   }
 
   .section-1 {
+    min-height: auto;
     padding-top: 10px;
   }
 
