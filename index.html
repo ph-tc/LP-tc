@@ -68,9 +68,13 @@
         <div class="form-wrapper">
           <div class="input-wrapper input-wrapper--user">
             <input type="text" placeholder="Ваше имя">
+            <div class="warning-line"></div>
+            <span>Некорректное имя</span>
           </div>
           <div class="input-wrapper input-wrapper--email">
-            <input type="text" placeholder="E-Mail">
+            <input type="email" placeholder="E-Mail">
+            <div class="warning-line"></div>
+            <span>Некорректный адрес электронной почты</span>
           </div>
         </div>
         <div class="textarea-wrapper">
@@ -100,6 +104,6 @@
       </ul>
     </div>
   </footer>
-  <script src="js/app.js"></script>
+  <script src="js/validation.js"></script>
 </body>
 </html>

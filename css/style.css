@@ -270,9 +270,11 @@ h1 {
 .section-4 .input-wrapper {
   position: relative;
   width: 49%;
+  border-radius: 10px 10px 10px 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.section-4 .input-wrapper::after {
+.section-4 .input-wrapper::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -286,12 +288,34 @@ h1 {
   background-position: center;
 }
 
-.section-4 .input-wrapper--user::after {
+.section-4 .input-wrapper--user::before {
   background-image: url('../img/icon-user.svg');
 }
 
-.section-4 .input-wrapper--email::after {
+.section-4 .input-wrapper--email::before {
   background-image: url('../img/icon-email.svg');
+}
+
+.section-4 .input-wrapper .warning-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  display: block;
+  height: 4px;
+  background-image: linear-gradient(to right, #f00 0%, transparent 100%);
+  transition: right 0.2s ease-in;
+}
+
+.section-4 .input-wrapper span {
+  position: absolute;
+  top: 110%;
+  left: 30px;
+  display: none;
+  font-family: 'GothamPro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #f00;
 }
 
 .section-4 input {
@@ -303,7 +327,6 @@ h1 {
   font-weight: normal;
   line-height: 67px;
   border: 1px solid transparent;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px 10px 10px 0;
   transition: border-color 0.2s ease-in;
 }
@@ -546,6 +569,10 @@ footer .bottom p {
     font-size: 20px;
   }
 
+  .section-4 .input-wrapper span {
+    font-size: 12px;
+  }
+
   .section-4 button {
     font-size: 20px;
     line-height: 50px;
@@ -605,6 +632,10 @@ footer .bottom p {
   .section-4 .input-wrapper {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .section-4 .input-wrapper span {
+    top: 104%;
   }
 
   footer {
