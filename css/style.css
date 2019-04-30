@@ -89,12 +89,12 @@ h1 {
 .section-1 .contact-btn {
   display: inline-block;
   padding: 0 120px 0 70px;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: normal;
   line-height: 75px;
-  text-transform: uppercase;
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
   border: none;
   border-radius: 100px;
   background-color: #be3736;
@@ -304,9 +304,10 @@ h1 {
   display: inline-block;
   align-self: center;
   padding: 0 120px 0 70px;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 74px;
   color: #fff;
+  text-transform: uppercase;
   background-color: #be3736;
   border: none;
   border-radius: 70px;
