@@ -222,17 +222,17 @@ h1 {
 }
 
 .section-3 p {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-size: 24px;
   font-weight: 300;
   color: #fff;
 }
 
 .section-3 .img {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
-  padding-top: 30%;
-  background-image: url('../img/trafic-src.png');
+  padding-top: 45%;
+  background-image: url('../img/trafic-phone.png'), url('../img/trafic-src.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -552,7 +552,7 @@ footer .bottom p {
 
   .section-3 .img {
     width: 100%;
-    padding-top: 40%;
+    padding-top: 60%;
   }
 
   .section-3 p {
