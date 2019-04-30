@@ -221,7 +221,7 @@ h1 {
   width: 80%;
   margin: 0 auto;
   padding-top: 45%;
-  background-image: url('../img/trafic-phone.png'), url('../img/trafic-src.svg');
+  background-image: url('../img/trafic-phone-@4x.png'), url('../img/trafic-src.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
