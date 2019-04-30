@@ -322,6 +322,9 @@ h1 {
 
 .section-4 .textarea-wrapper {
   position: relative;
+  margin-bottom: 65px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 10px 0;
 }
 
 .section-4 textarea {
@@ -329,14 +332,12 @@ h1 {
   min-width: 100%;
   max-height: 250px;
   min-height: 250px;
-  margin-bottom: 65px;
   padding: 25px 30px 25px 80px;
   font-family: 'GothamPro', sans-serif;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.5;
   border: 1px solid transparent;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px 10px 10px 0;
   transition: border-color 0.2s ease-in;
 }
