@@ -69,12 +69,23 @@ footer .inner {
 }
 
 .section-1 .main-logo,
-.section-1 .main-logo svg {
+.section-1 .main-logo img {
   width: 317px;
 }
 
-.section-1 .main-logo svg {
-  margin-bottom: 14px;
+.section-1 .main-logo img {
+  margin-bottom: 10px;
+}
+
+.section-1 a {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section-1 a span br {
+  display: none;
 }
 
 .section-1 .tomain-link {
@@ -706,6 +717,10 @@ footer .bottom p {
 
   .section-1 .tomain-link {
     font-size: 16px;
+  }
+
+  .section-1 a {
+    font-size: 10px;
   }
 
   .section-2 {
